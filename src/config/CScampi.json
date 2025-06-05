@@ -1,7 +1,7 @@
 {
     "name": "Cartesian-Scampi",
     "dtype": "float32",
-    "learningrate": 0.07,
+    "learningrate": 0.08,
     "batch_size": 1,
     "skip_connections": 1.0,
      "n_epochs": 2500,
