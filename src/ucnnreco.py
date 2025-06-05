@@ -165,8 +165,8 @@ class CartesianScampi(UcnnReco):
         out_size = (self.dim[1], self.dim[2]) 
         self.model = CScampiModeltwo.DipConvDecoder(
             input_dim=input_dim, 
-            num_layers=8, 
-            num_channels=256, 
+            num_layers=5, 
+            num_channels=64, 
             num_output_channels=self.n_channels, 
             out_size=out_size, 
             in_size=input_shape, 
